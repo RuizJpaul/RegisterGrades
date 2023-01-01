@@ -45,7 +45,7 @@ namespace Exercise3
                     }
                 }
                 counter++;
-            } while (ans != "end");
+            } while (ans != "end");//We write "end(any keyword)" to log out
             Console.WriteLine("Average --> {0}/{1} --> {2}", sum, counter-2, sum/(counter-2));
         }
     }
